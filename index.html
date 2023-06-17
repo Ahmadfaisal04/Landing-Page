@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freefolio beginner template">
+    <title>AHMAD FAISAL</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="navbar-branding"><img class="logo" src="assets/Ahmad Faisal.svg" alt="beginner logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#hero__section" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#project__section" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#testimonial__section" class="nav-link">Quotes</a></li>
+                <li class="nav-item">
+                    <div class="mode__con">
+                        <img class="lightswitch" src="assets/moon.svg" alt="moon icon">
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <div class="icon nav-icon-6">
+                    <span></span>   
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero__section">
+            <article class="left-hero">
+                <p class="txt__upper">Hello 👋 I'm,</p>
+                <h1 class="txt">Ahmad Faisal</span></h1>
+                <h2 class="txt__under">Mahasiswa || Front-End Web Developer. 💻</h2>
+                <p class="desc">
+                <span id="element"></span>
+            </p>
+                    
+                </p>
+                <div class="soclinks">
+                    <a href="https://www.instagram.com/ahmadfaizal_af/" target="_blank">
+                    <button class="btn" type="button">Contact Me!</button>
+                </a>
+                </div>
+            </article>
+            <div class="right-hero">
+                <img id="hero__img" src="assets/Logo 1.svg" alt="right-hero">
+            </div>
+        </section>
+        <section class="projects" id="project__section">
+            <h3 class="project-heading">Projects</h3>
+            <div class="cards">
+                <div class="card">
+                    <div class="card__cover">
+                        <img src="img/projects/s1.png" alt="Avatar">
+                    </div>
+                    <div class="card__content">
+                        <h4><b>Java Fondation</b></h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__cover">
+                        <img src="img/projects/s2.jpg" alt="Avatar">
+                    </div>
+                    <div class="card__content">
+                        <h4>Database SQL</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__cover">
+                        <img src="img/projects/s4.png" alt="Avatar">
+                    </div>
+                    <div class="card__content">
+                        <h4><b>Dasar Figma</b></h4>
+                       
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__cover">
+                        <img src="img/projects/s5.jpg" alt="Avatar">
+                    </div>
+                    <div class="card__content">
+                        <h4><b>HTML & CSS</b></h4>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimony" id="testimonial__section">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="fig">
+                        <blockquote><img src="assets/open.svg" alt="open quotation">Saya masih berpikir bahwa salah satu tes terbaik dari kemampuan pemrograman adalah memberikan programmer sekitar 30 halaman kode dan melihat seberapa cepat dia dapat membaca dan memahaminya. <img src="assets/close.svg" alt="close quotation"></blockquote>
+                        <figcaption>~Bill Gates</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="fig">
+                        <blockquote><img src="assets/open.svg" alt="open quotation">Cara belajar otodidak itu harus ada time management yang baik dan harus disiplin, dan juga harus mencari materi yang cocok dengan cara belajar kita.<img src="assets/close.svg" alt="close quotation"></blockquote>
+                        <figcaption>~Faqihza Mukhlish</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="fig">
+                        <blockquote><img src="assets/open.svg" alt="open quotation">Saat kamu kewalahan saat belajar coding, mungkin kamu melakukanya dengan cara yang salah.<img src="assets/close.svg" alt="close quotation"></blockquote>
+                        <figcaption>~Junior Coding ID</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="indicator swiper-pagination"></div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="ftr">
+        <div>Made with ❤️ by <a href="https://github.com/Ahmadfaisal04" target="_blank">@ahmadfaizal</a></div>
+    </footer>
+
+    <script src="index.js"></script>
+
+
+
+
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Making something to help lots of people', '&amp; Tetap santuy walau terbatai.'],
+        typeSpeed: 100,
+      });
+    </script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+   <script>
+    const swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+    
+</body>
+</html>
